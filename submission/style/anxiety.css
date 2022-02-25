@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@media screen and (max-width: 1000px) {
+	#content {
+		width: 100%;
+		padding: 0;
+	}
+	
+}
+.jumbotron {
+    font-size: 20px;
+    padding: 35px;
+    background-color: #bcb4c4;
+    text-align: center;
+    color: white;
+}
+.jumbotron img {
+	width: 75px;
+}
+header {
+    display: inline;
+}
+nav a {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+nav a {
+    color: #bfc8e0;
+}
+nav a:hover {
+    font-weight: bold;
+}
+nav {
+    background-color: #767ba5;
+    padding: 3px;
+    position: sticky;
+    top: 0px;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 15px;
+}
+main {
+    padding: 20px;
+    overflow: auto;
+}
+#content {
+    float: left;
+    width: 100%;
+}
+h2 {
+    color: #767ba5;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #bcb4c4;
+}
+footer {
+	text-align: center;
+	font-weight: bold;
+}
+body {
+	font-family: 'Playfair Display', serif;
+	margin: 0;
+	padding: 0;
+}
